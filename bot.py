@@ -13,11 +13,11 @@ import yt_dlp
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-SESSION = os.getenv("SESSION_STRING")
-LOG_GROUP = int(os.getenv("LOG_GROUP_ID", "0"))
+API_ID = int(os.getenv("37218857"))
+API_HASH = os.getenv("35077e83513859f286a74a5dd264741c")
+BOT_TOKEN = os.getenv("8798867441:AAGq-UJPt8g2OqFtq7ntuEx9M04WaCrKCtw")
+SESSION = os.getenv("BQGh1p0AkeTa4egUaFoFVuqu0DVWh5kVXTfOR6gix2XjX0pTYctY83gBcnRAuP4awR3D8iwJ4ZXD47YAI4zK5OfTQLP-lQLOIh5bZSM8mSBXQjwO5Ram0PpvLqMRZV0oTw_bS89lrN7AfV5bmbgZEs8Vm3wSbH4AEjNjpFKXajHwr2VdT6xOiO7JLVVPN3Wl5IBodEObtx6KP0msX3FJRztVwvRqMFPuMjXeYIaBRxj8ooWym7VsZXPjIZ8wwcWeE4Ygh9yMjJUn-5NdTkcOQzoMBN0_9wb-Ml60xyoCwCc2iZonyBI0in94h4geE37LYarUg1o5ko-AO3tqBTdRF3ssyutPSwAAAAIMdA_xAQ")
+LOG_GROUP = int(os.getenv("-1002525306088", "0"))
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 user = Client("assistant", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
